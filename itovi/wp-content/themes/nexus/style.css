@@ -1,0 +1,275 @@
+/*
+  Theme Name: Nexus
+  Theme URI: http://themes.profteamsolutions.com/nexus/
+  Description: Multi-Purpose Wordpress Theme.
+  Author: ProfTeam
+  Author URI: http://www.profteamsolutions.com
+  License: GNU General Public License
+  License URI: license.txt
+  Tags: two-columns, left-sidebar, right-sidebar, custom-menu, full-width-template, theme-options, translation-ready
+  Version: 1.2
+*/
+
+
+
+/* Table of contents
+   ========================================================================== */
+
+/**
+  * == Core CSS ==
+  *
+  1. Body
+  2. Header / .header
+  3. Navigation / nav.menu
+  4. Content / .bran-body
+  5. Sidebar / .sidebar
+  6. RSS / #rss
+  7. Search / #search
+  8. Blog Right Sidebar / .blog-right-sidebar
+  9. Blog Left Sidebar / blog-left-sidebar
+  13. Footer / footer
+
+*/
+
+
+
+/*------------------------------------------------------
+General
+-------------------------------------------------------*/
+h1 , h2 , h3 , h4 , h5 , h6{margin:0 0 15px 0;}
+body{
+  color:#4e4e4e;  
+  font-size:13px;
+  margin:0 0 0 0;
+  margin:0 auto;
+  line-height:22px; 
+  text-align:left;
+  background:#fff;
+}
+.ie body{line-height:normal;}
+input, button{-webkit-appearance:none !important; background:transparent;}
+
+
+/*------------------------------------------------------
+Page Main Container
+-------------------------------------------------------*/
+.page-main-container{
+  width:100%;
+  display:inline-block;
+  padding:70px 0 70px;
+  line-height:22px;
+  text-align:center;
+  height:auto;
+  min-height:325px;
+  position:relative;
+  margin-bottom:-5px;
+  overflow:hidden;
+}
+.page-main-container.page-main-container-blog-full-grid{padding:50px 0 70px;}
+.middle-container{
+  width:1200px;
+  padding:0 15px 0 15px;
+  display:inline-block;
+  margin:0 auto;
+  text-align:left;
+  position:relative;
+}
+
+
+
+/*------------------------------------------------------
+Page Inner Container
+-------------------------------------------------------*/
+.homepage-container-design-inner{
+  width:1230px;
+  margin:0 auto;
+}
+
+.homepage-container-design-wide .homepage-container-design-inner{
+  width:100%;
+}
+
+/*------------------------------------------------------
+Nav Container
+-------------------------------------------------------*/
+.insperia-user-logged.navbar-fixed-top {
+  top: 32px;
+}
+
+h2 .factor {
+  font-size: 58px;
+}
+
+.homepage-container-design.make-it-parallax{background-attachment:fixed;}
+
+.single-testimonial .name {
+  color: #fff !important;
+}
+
+.single-testimonial .thumb img {
+  margin-bottom: 0;
+}
+
+.vc_row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.vc_col-sm-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.custom-tabs .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.wpb_accordion .wpb_accordion_wrapper h3.wpb_accordion_header a {
+  color: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.wpb_accordion .wpb_accordion_wrapper h3.wpb_accordion_header {
+  background: none repeat scroll 0 0 #f5f5f5;
+  border: 1px solid #ddd;
+  color: #333 !important;
+  font-size: 16px !important;
+  font-weight: 400;
+  line-height: 1.1;
+  padding: 10px 15px;
+}
+
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_content {
+  background: none repeat scroll 0 0 #fff;
+  border: 1px solid #ddd;
+  color: #999;
+  font-size: 16px;
+  margin-top: -2px;
+  padding: 15px !important;
+}
+
+.mejs-container, .mejs-embed, .mejs-embed body, .mejs-container .mejs-controls {
+  max-width: 100%;
+}
+
+.mejs-controls div.mejs-time-rail {
+  max-width: 135px;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total {
+  max-width: 130px;
+}
+
+.post-header img{margin:0;}
+
+@media (max-width: 1200px) {
+  .homepage-container-design-inner {
+    width: 95%;
+  }
+}
+
+.img-background {
+    background-image: url(http://clients.liftmedia.io/itovi/wp-content/uploads/2015/07/jawbone-up-move.jpg?id=46);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+#specs-text, #faqs-text {
+    display: none;
+
+}
+
+#specs, #faqs {
+    cursor: pointer;
+
+}
+
+.nexus-internal .hero {
+    background-position: center;
+    
+}
+
+.get-it-div {
+    text-align: right;
+}
+
+.icon-click {
+  cursor: pointer;
+}
+
+.icon-hidden-text {
+  display: none;
+  text-align: center;
+}
+
+.icon-test i {
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+
+}
+
+.small-icons-a {
+    display: inline-block;
+    width: 8%;
+    margin: 2%;
+
+}
+
+.small-icons-a img:hover {
+    background: #ff7100;
+    border-radius: 50%;
+
+}
+
+#get-it .get-it a {
+    background-color: #ff7100;
+
+}
+
+#get-it .get-it a:hover {
+    background-color: #df6301;
+
+}
+
+.app-header {
+    background: rgba(99, 178, 222, .8)
+
+}
+
+.app-header-sticky {
+    background: rgba(99, 178, 222, .8)
+
+}
+
+#images-1 {
+    text-align: center;
+}
+
+#images-1 .img-background, #images-2 .img-background, #images-3 .img-background, #images-4 .img-background {
+    width: 49.9%;
+    border: 1px solid white;
+
+}
+
+.small-icons-row p {
+    text-align: center;
+
+}
+
+@media (max-width: 775px) {
+    #images-1 .img-background, #images-2 .img-background, #images-3 .img-background, #images-4 .img-background {
+        width: 100%;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+    }
+
+}
